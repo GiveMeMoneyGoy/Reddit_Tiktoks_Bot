@@ -1,0 +1,30 @@
+
+
+
+
+MAKE LONG FORM YT CONTENT
+MAKE AI-GENERATED SONGS AND LISTEN TO THEM WITH BOTS FOR AD REVENUE
+
+
+-mouse jiggling should be optional when generating
+-make video watcher bots, 10-20 accounts which watch the videos right after they are uploaded so as to gain traction
+-replace current subtitles mechanic using OpenAI TTS API (WHEN WE START MAKING MONEY)
+	-https://github.com/MatteoFasulo/Whisper-TikTok
+-make it possible for screenshotter.py to extend posts that are too long via pressing "Read More"
+
+
+-INCREASE AMOUNT OF POSTS PER SCRAPE: https://www.reddit.com/dev/api#GET_api_morechildren
+-rust_scraper rewrite in python.
+-make rust_scraper not screenshot and make folders for worthy top posts with 0 worthy top replies
+-learn how to make fancy loud effects
+-screenshotter.py is called rust-side, audio generation is being called python-side.. ermm...
+-rust_scraper rare NoSuchElementException returned from python script execution when running scraper (cargo run)?????
+-@ rust_scraper : main.rs : 1.10.11.6, line 212, we query for top replies via plink, but it's janky. switch querying in the XPATH in screenshotter.py to author name and reply depth and chain XPATH queries with a dot between them (can be done in selenium) o algo
+-make rust_scraper able to scrape nsfw posts, currently we have no feature to click on the "view post" button
+
+
+searching api via id:
+https://api.reddit.com/api/info/?id=[thingid]
+
+
+https://www.reddit.com/dev/api#GET_api_morechildren
